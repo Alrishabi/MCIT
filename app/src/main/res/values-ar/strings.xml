@@ -1,0 +1,228 @@
+<resources>
+    <string name="app_name">وزارة الاتصالات السودان</string>
+
+    <string name="title_mcit_header_main">وزارة الاتصالات وتكنولوجيا المعلومات</string>
+    <string name="title_activity_main">وزارة الاتصالات وتكنولوجيا المعلومات</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">الضبط</string>
+    <string name="title_activity_login">تسجيل دخول</string>
+
+    <string name="title_activity_admin_tabe">مدير</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="RecyclerAdminFragment">تم التسجيل بنجاح</string>
+
+    <!-- TODO: spinners array  -->
+    <string-array name="Broadcast_type">
+        <item>-قم بإختيار نوع التعميم-</item>
+        <item>رسمي</item>
+        <item>إجتماعي</item>
+        <item>ثقافي</item>
+        <item>رياضي</item>
+    </string-array>
+
+    <string-array name="Degree">
+        <item>-إختار الدرجه-</item>
+        <item>10</item>
+        <item>9</item>
+    </string-array>
+
+    <string name="new_message_notification_title_template">New Broadcast: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+    <string name="new_candidates_added">تم إضافة مرشحين جدد</string>
+
+    <string name="action_share">مشاركة</string>
+    <string name="action_reply">رد</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_tabe">UserTabeActivity</string>
+
+    <!-- TODO: Main Activity Strings -->
+    <string name="login_title">دخول</string>
+    <string name="communicate_title">تواصل</string>
+    <string name="website_title">الموقع الالكتروني</string>
+    <string name="contact_us_title">تواصل معنا</string>
+    <string name="about_app_title">عن التطبيق</string>
+
+    <!-- TODO: Dialog alert titles -->
+    <string name="dialog_quit_title">خروج</string>
+
+    <!-- TODO: Dialog alert Message -->
+    <string name="dialog_quit_message">هل تريد إغلاق التطبيق؟!!</string>
+
+    <!-- TODO: Dialog alert Button -->
+    <string name="dialog_quit_negative_button">إلغاء</string>
+    <string name="dialog_quit_positive_button">تاكيد</string>
+
+    <!--  TODO: Login Fragment -->
+    <string name="logging_progress_message">جاري الدخول..</string>
+    <string name="Type_Admin_Name">قم بكتابة رقم المستخدم التعريفي</string>
+    <string name="Type_Admin_Password">قم بكتابة كلمة المرور</string>
+    <string name="ID_hint">الرقم التعريفي</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="show_hint">إظهار</string>
+    <string name="hide_hint">إخفاء</string>
+    <string name="Login_Success">دخول بنجاح</string>
+    <string name="Login_failed">تاكد من الاسم الصحيح وكلمة المرور..او قم بمراجعة مدير التطبيق </string>
+    <string name="tryagain">حاول مرة اخرى</string>
+
+    <!--  TODO: Website Fragment -->
+    <!-- TODO: Progress Dialog  titles -->
+    <string name="loading_progress_dialog_message">تحميل...</string>
+
+    <!--  TODO: Contact us  vFragment -->
+    <!-- TODO: Progress Dialog  titles -->
+    <string name="choose_email">إختار تطبيق البريد:</string>
+    <string name="version">النسخة</string>
+    <string name="contact_developer">تواصل معا المطور</string>
+
+    <!--  TODO: Admin TabeActivity -->
+    <string name="broadcast_tabe_lable">التعميمات</string>
+    <string name="my_broadcast_tabe_lable">تعميماتي</string>
+    <string name="insert_tabe_lable">إضافة تعميم</string>
+    <string name="voting_tabe_lable">تصويت</string>
+    <string name="questionnaire_tabe_lable">إستبيانات</string>
+    <string name="admin_info_tabe_lable">معلوماتي</string>
+
+    <!--  TODO:Broadcast Fragment -->
+    <string name="hi_greeting">مرحبا!</string>
+    <string name="not_item_found">لا يوجد عناصر</string>
+    <string name="nothing_to_search_it">لا يوجد عناصر للبحث</string>
+
+    <!--  TODO:My Broadcast Fragment -->
+    <string name="sorry">نأسف..</string>
+
+    <!--  TODO:My Insert Fragment -->
+    <string name="ignore_case_for_broadcast">-قم بإختيار نوع التعميم-</string>
+    <string name="insert_seccfual">تم الاضافة بنجاح</string>
+    <string name="insert_failed">فشل في الإضافة</string>
+    <string name="type_broadcast_lable">قم بكتابة عنوان التعميم</string>
+    <string name="choose_broadcast_type">إختار نوع التعميم</string>
+    <string name="type_broadcast_contanet">قم بكتابة محتوي التعميم</string>
+    <string name="broadcast_title_hint">عنوان التعميم</string>
+    <string name="content_hint">المحتوي</string>
+    <string name="date_hint">التاريخ</string>
+    <string name="type_broadcast_date">إختار تاريخ التعميم</string>
+    <string name="insert_broadcast">إضافة تعميم</string>
+    <string name="no_internet_connection">لا يوجد إتصال بالإنترنت</string>
+    <string name="cal">التقويم</string>
+
+
+
+
+    <!--  TODO:Vote Fragment -->
+    <string name="nomination_no_hint">الترشيح رقم:  </string>
+    <string name="candidate1">المرشح الاول</string>
+    <string name="candidate2">المرشح الثاني</string>
+    <string name="candidate3">المرشح الثالت</string>
+    <string name="candidate4">المرشح الرابع</string>
+    <string name="candidate5">المرشح الخامس</string>
+    <string name="candidate6">المرشح السادس</string>
+    <string name="candidate7">المرشح السابع</string>
+    <string name="candidate8">المرشح الثامن</string>
+    <string name="candidate9">المرشح التاسع</string>
+    <string name="candidate10">المرشح العاشر</string>
+    <string name="attention_dialog_title">انتبة!</string>
+    <string name="attention_message">لقد قمت بالتصويت مسبقا!</string>
+    <string name="connection_failed">فشل الاتصال</string>
+    <string name="ignore_case_for_degree">-إختار الدرجه-</string>
+    <string name="vote_date">تاريخ الترشيح</string>
+    <string name="insert_candidate">إضافة المرشحين</string>
+
+
+
+    <!--  TODO:info user Fragment -->
+    <string name="update_progress_message">جاري التحديث...</string>
+    <string name="retype_user_name">اعد كتابة اسم المستخدم</string>
+    <string name="retype_password">قم بكتابة كلمة المرور الجديده</string>
+    <string name="must_retype_password">يجب إعادة كتابة كلمة المرور الجديده</string>
+    <string name="name">الإسم:</string>
+    <string name="user_name_hint">إسم المستخدم</string>
+    <string name="old_password_hint">كلمة المرور الحاليه</string>
+    <string name="new_password_hint">كلمة المرور الجديد</string>
+    <string name="repeat_password_hint">إعادة كلمة المرور</string>
+    <string name="current_pass_is_incorrect">كلمة المرور الحاليه غير صحيحه</string>
+    <string name="passwords_do_not_match">كلمات المرور غير متطابقة.أعد المحاوله</string>
+    <string name="save_change">حفظ التغيرات</string>
+    <string name="write_current_password">قم بكتابة كلمة السر الحالية!</string>
+    <string name="pass_changed_successfully">تم تغير كلمة المرور بنجاح</string>
+
+
+
+    <!--  TODO:User Vote  Fragment -->
+    <string name="select_degree_for_first">إختر درجة المرشح الاول</string>
+    <string name="select_degree_for_second">إختر درجة المرشح الثاني</string>
+    <string name="select_degree_for_third">إختر درجة المرشح الثالث</string>
+    <string name="select_degree_for_fourth">إختر درجة المرشح الرابع</string>
+    <string name="select_degree_for_fifth">إختر درجة المرشح الخامس</string>
+    <string name="select_degree_for_six">إختر درجة المرشح السادس</string>
+    <string name="can_not_give_same_degree">لا يمكن اعطاء الموظفين نفس الدرجة</string>
+    <string name="type_first_name">أدخل إسم المرشح الاول</string>
+    <string name="type_second_name">أدخل إسم المرشح الثاني</string>
+    <string name="type_third_name">أدخل إسم المرشح الثالث</string>
+    <string name="type_date">أدخل تاريخ التصويت</string>
+    <string name="for_admin">خاص بالمدير</string>
+    <string name="number_of_voter">عدد المصوتين:</string>
+    <string name="voter_counter">0</string>
+
+
+
+    <!--  TODO:show Dialog -->
+    <string name="done_button">تم</string>
+    <string name="broadcast_single">تعميم</string>
+    <string name="edit_broadcast">تعديل التعميم</string>
+
+    <!--  TODO:show Dialog -->
+    <string name="cancel_button">إلغاء</string>
+    <string name="save_button">حفظ</string>
+    <string name="user_id_dos_not_correct">لم يتم العثور علي المستخدم..قم بمراجعة المدير</string>
+    <string name="password_dos_not_correct">كلمة المرور غير صحيحه</string>
+    <string name="deleting_progress">جاري المسح...</string>
+    <string name="delete_successfully">تم المسح بنجاح</string>
+    <string name="delete_qution">هل تريد مسح التعميم؟</string>
+    <string name="delete_hint">مسح</string>
+
+    <!--  TODO:admin vote fragment -->
+
+    <string name="vote">صَوت</string>
+    <string name="degrees">الدرجات</string>
+
+    <!--  TODO:browser activity -->
+
+    <string name="attintion_dialog_gu">تحذير !</string>
+    <string name="did_u_comp_qu">هل قمت بملأ الاستبيان بصوره صحيحه؟لايمكن الرجوع لهذا الاستبيان مره اخرى!</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="press_here">إضغط هنا</string>
+    <string name="you_have_already_submit_qu">لقد قمت بملأ الاستبيان مسبقا</string>
+    <string name="android_lollipop_material_musab_alrishabi_login_design_activity_blog_facebook_google_kitkat_marshmallow_google">Android | Lollipop | Material | Musab | Alrishabi | Login | Design | Activity | Blog | Facebook | Google | Kitkat | Marshmallow | Google</string>
+
+    <!--  TODO:nimonation activity -->
+    <string name="title_activity_nomination">واجهة الترشيح</string>
+    <string name="employees">موظفين</string>
+    <string name="engineers">مهندسين</string>
+    <string name="workers">عمال</string>
+
+    <!--  TODO:go to nimonation  -->
+
+    <string name="vote_now">صوت الان..</string>
+    <string name="vote_declar">تتم عملية التصويت لإختيار الموظف /العامل المثالي عن طريق تصويت الموظفين بواسطة تطبيق  الاندرويد ،مرحلة التصويت هي المرحله النهائية من مراحل إختيار الموظف /العامل المثالي حيث تسبقها مرحلة الترشيح عن طريق معايير الاختيار المعتمدة من قبل مجلس الوزراء ثم مرحلة فرز المرشحين من قبل اللجنه.</string>
+    <string name="can_not_give_worker_same_degree">لا يمكنك إعطاء العمال نفس الدرجة</string>
+    <string name="sure_message">هل انت متاكد من هذه الدرجات؟لايمكنك التراجع عن التصويت..!</string>
+
+
+
+</resources>

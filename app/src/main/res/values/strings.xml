@@ -1,0 +1,216 @@
+<resources>
+    <string name="app_name">MCIT|SUDAN</string>
+
+    <string name="title_mcit_header_main">Ministry of Communications and Information Technology</string>
+    <string name="title_activity_main">Ministry of Communications and Information Technology</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="title_activity_admin_tabe">Admin</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="RecyclerAdminFragment">Login successfully</string>
+
+    <!-- TODO: spinners array  -->
+    <string-array name="Broadcast_type">
+        <item>-قم بإختيار نوع التعميم-</item>
+        <item>رسمي</item>
+        <item>إجتماعي</item>
+        <item>ثقافي</item>
+        <item>رياضي</item>
+    </string-array>
+
+    <string-array name="Degree">
+        <item>-إختار الدرجه-</item>
+        <item>10</item>
+        <item>9</item>
+    </string-array>
+
+    <string name="new_message_notification_title_template">New Broadcast: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">
+    </string>
+
+    <string name="new_candidates_added">New candidates added</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_tabe">UserTabeActivity</string>
+
+    <!-- TODO: Main Activity Strings -->
+    <string name="login_title">Login</string>
+    <string name="communicate_title">Communicate</string>
+    <string name="website_title">Website</string>
+    <string name="contact_us_title">Contact us</string>
+    <string name="about_app_title">About app</string>
+    <!-- TODO: Dialog alert titles -->
+    <string name="dialog_quit_title">Quit</string>
+    <!--  TODO: Dialog alert Message -->
+    <string name="dialog_quit_message">Do You Want To Close App!!!</string>
+    <!--TODO: Dialog alert Button -->
+    <string name="dialog_quit_negative_button">cancel</string>
+    <string name="dialog_quit_positive_button">OK</string>
+
+    <!--  TODO: Login Fragment -->
+    <string name="logging_progress_message">logging</string>
+    <string name="Type_Admin_Name">Type User IDNudity Number</string>
+    <string name="Type_Admin_Password">Type Admin Password</string>
+    <string name="ID_hint">ID</string>
+    <string name="password_hint">Password</string>
+    <string name="show_hint">Show</string>
+    <string name="hide_hint">Hide</string>
+    <string name="Login_Success">Login success</string>
+    <string name="Login_failed">Mack sure you type a correct ID and password or check with your administrator</string>
+    <string name="tryagain">Try again</string>
+
+    <!--  TODO: Website Fragment -->
+    <!-- Progress Dialog  titles -->
+    <string name="loading_progress_dialog_message">Loading...</string>
+
+    <!--  TODO: Contact us  vFragment -->
+    <!-- Progress Dialog  titles -->
+    <string name="choose_email">Choose an Email client:</string>
+    <string name="version">Version</string>
+    <string name="contact_developer">Contact developer</string>
+
+
+    <!--  TODO: Admin TabeActivity -->
+    <string name="broadcast_tabe_lable">Broadcast</string>
+    <string name="my_broadcast_tabe_lable">My Broadcast</string>
+    <string name="insert_tabe_lable">Insert</string>
+    <string name="voting_tabe_lable">Vote</string>
+    <string name="questionnaire_tabe_lable">Questionnaire</string>
+    <string name="admin_info_tabe_lable">Your Info</string>
+
+    <!--  TODO:Broadcast Fragment -->
+    <string name="hi_greeting">Hi</string>
+    <string name="not_item_found">No item found</string>
+    <string name="nothing_to_search_it">Nothing to search it</string>
+
+    <!--  TODO:My Broadcast Fragment -->
+    <string name="sorry">Sorry..</string>
+
+    <!--  TODO:My Insert Fragment -->
+    <string name="ignore_case_for_broadcast">-قم بإختيار نوع التعميم-</string>
+    <string name="insert_seccfual">Insert successfully</string>
+    <string name="insert_failed">Insert Failed</string>
+    <string name="type_broadcast_lable">Type a broadcast lable</string>
+    <string name="choose_broadcast_type">Choose a broadcast type</string>
+    <string name="type_broadcast_contanet">Type a broadcast content</string>
+    <string name="broadcast_title_hint">Broadcast title</string>
+    <string name="content_hint">Content</string>
+    <string name="date_hint">Date</string>
+    <string name="type_broadcast_date">Select a date for broadcast</string>
+    <string name="insert_broadcast">Insert broadcast</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="cal">cal</string>
+
+
+
+
+    <!--  TODO:Vote Fragment -->
+    <string name="nomination_no_hint">Nomination no: </string>
+    <string name="candidate1">First candidate</string>
+    <string name="candidate2">Second candidate</string>
+    <string name="candidate3">Third candidate</string>
+    <string name="candidate4">fours candidate</string>
+    <string name="candidate5">fifth candidate</string>
+    <string name="candidate6">six candidate</string>
+    <string name="candidate7">sevnth candidate</string>
+    <string name="candidate8">eight candidate</string>
+    <string name="candidate9">nine candidate</string>
+    <string name="candidate10">ten candidate</string>
+    <string name="attention_dialog_title">Attention!</string>
+    <string name="attention_message">You have already voted !</string>
+    <string name="connection_failed">Connection failed-try again</string>
+    <string name="ignore_case_for_degree">-إختار الدرجه-</string>
+    <string name="vote_date">Vote date</string>
+    <string name="insert_candidate">Insert candidate</string>
+
+
+    <!--  TODO:info user Fragment -->
+    <string name="update_progress_message">Updating...</string>
+    <string name="retype_user_name">Retype user name</string>
+    <string name="retype_password">Type a new password</string>
+    <string name="must_retype_password">Must repeat your new password</string>
+    <string name="name">Name   :</string>
+    <string name="user_name_hint">User name</string>
+    <string name="old_password_hint">Current password</string>
+    <string name="new_password_hint">New-password</string>
+    <string name="repeat_password_hint">Re-password</string>
+    <string name="current_pass_is_incorrect">The current password is incorrect</string>
+    <string name="passwords_do_not_match">The New and Confirm passwords must mach.Please re-type them.</string>
+    <string name="save_change">Save changes</string>
+    <string name="write_current_password">Write current password !</string>
+    <string name="pass_changed_successfully">Password changed successfully</string>
+
+
+    <!--  TODO:User Vote  Fragment -->
+    <string name="select_degree_for_first">Select degree for first candidate</string>
+    <string name="select_degree_for_second">Select degree for second candidate</string>
+    <string name="select_degree_for_third">Select degree for third candidate</string>
+    <string name="select_degree_for_fourth">Select degree for fourth candidate</string>
+    <string name="select_degree_for_fifth">Select degree for fifth candidate</string>
+    <string name="select_degree_for_six">Select degree for six candidate</string>
+    <string name="can_not_give_same_degree">You can\'t give employees same degree</string>
+    <string name="type_first_name">Type first name</string>
+    <string name="type_second_name">Type second name</string>
+    <string name="type_third_name">Type third name</string>
+    <string name="type_date">Type voting date</string>
+    <string name="for_admin">For admin</string>
+    <string name="number_of_voter">Number of voters : </string>
+    <string name="voter_counter">0</string>
+
+
+
+    <!--  TODO:show Dialog -->
+    <string name="done_button">Done</string>
+    <string name="broadcast_single">Broadcast</string>
+    <string name="edit_broadcast">Edit broadcast</string>
+
+    <!--  TODO:show Dialog -->
+    <string name="cancel_button">Cancel</string>
+    <string name="save_button">Save</string>
+    <string name="user_id_dos_not_correct">This ID dose not correct</string>
+    <string name="password_dos_not_correct">Password dose not correct</string>
+    <string name="deleting_progress">Deleting...</string>
+    <string name="delete_successfully">Delete successfully</string>
+    <string name="delete_qution">Delete Broadcast ?</string>
+    <string name="delete_hint">Delete</string>
+    <string name="vote">vote</string>
+    <string name="degrees">Degrees</string>
+
+    <!--  TODO:browser activity -->
+
+    <string name="attintion_dialog_gu">Attention</string>
+    <string name="did_u_comp_qu">Have you completed the questionnaire correctly? You can not go back to this questionnaire again!</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="press_here">Press here</string>
+    <string name="you_have_already_submit_qu">You have already completed the questionnaire</string>
+    <string name="android_lollipop_material_musab_alrishabi_login_design_activity_blog_facebook_google_kitkat_marshmallow_google">Android | Lollipop | Material | Musab | Alrishabi | Login | Design | Activity | Blog | Facebook | Google | Kitkat | Marshmallow | Google</string>
+
+    <!--  TODO:nimonation activity -->
+    <string name="title_activity_nomination">NominationActivity</string>
+    <string name="employees">Employees</string>
+    <string name="engineers">Engineers</string>
+    <string name="workers">Workers</string>
+
+
+    <!--  TODO:go to nimonation  -->
+
+    <string name="vote_now">Vote now</string>
+    <string name="vote_declar">The voting process is the final stage of the selection of the ideal employee / worker, preceded by the nomination stage through the selection criteria approved by the Council of Ministers and the stage of screening candidates by the Committee.</string>
+    <string name="can_not_give_worker_same_degree">You can not give worker same degree</string>
+    <string name="sure_message">Are you sure of these degrees? You can not undo voting</string>
+
+
+</resources>

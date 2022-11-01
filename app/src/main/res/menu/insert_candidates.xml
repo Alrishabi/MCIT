@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.musab.mcit.Activities.AdminTabeActivity">
+    <item
+        android:id="@+id/insert_candidates"
+        android:orderInCategory="100"
+        android:title="Insinsert_candidatesert"
+        android:icon="@drawable/add_candidates"
+        app:showAsAction="always" />
+</menu>

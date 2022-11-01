@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+   >
+
+
+    <!-- Login progress -->
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:padding="20dp">
+
+
+
+                <EditText
+                    android:id="@+id/editTextName"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="50dp"
+                    android:layout_height="40dp"
+                    android:drawableStart="@drawable/ic_account_graey"
+                    android:ems="10"
+                    android:hint="@string/ID_hint"
+                    android:drawablePadding="5dp"
+                    android:padding="5dp"
+                    android:inputType="number"
+                    android:textSize="20sp"
+                    android:selectAllOnFocus="true"
+                    tools:ignore="RtlHardcoded"
+                    android:background="#39dcdbdb"
+                    android:drawableLeft="@drawable/ic_account_graey" />
+
+            <EditText
+                android:id="@+id/editTextPass"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="40dp"
+                android:drawableStart="@drawable/ic_account_passkey"
+                android:ems="10"
+                android:hint="@string/password_hint"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:drawablePadding="5dp"
+                android:inputType="textPassword"
+                android:textSize="20sp"
+                android:selectAllOnFocus="true"
+                tools:ignore="RtlHardcoded"
+                android:background="#39dcdbdb"
+                android:drawableLeft="@drawable/ic_account_passkey" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/show_hint"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="    |    "
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="13sp"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:id="@+id/hide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hide_hint"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:textSize="20dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/login_title"
+                android:textColor="#eceae9"
+                android:textStyle="bold"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:alpha="0.8"
+                android:text="@string/android_lollipop_material_musab_alrishabi_login_design_activity_blog_facebook_google_kitkat_marshmallow_google"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#cccccc" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

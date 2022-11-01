@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Login"
+            android:icon="@drawable/ic_admin_message"
+            android:title="@string/login_title" />
+        <item
+            android:id="@+id/nav_webside"
+            android:icon="@drawable/ic_earth_globe"
+            android:title="@string/website_title" />
+
+    </group>
+
+
+    <item android:title="@string/communicate_title">
+        <menu>
+
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_contact_us"
+                android:title="@string/contact_us_title" />
+            <item
+                android:id="@+id/nav_about_app"
+                android:icon="@drawable/ic_about_app"
+                android:title="@string/about_app_title" />
+        </menu>
+    </item>
+
+</menu>

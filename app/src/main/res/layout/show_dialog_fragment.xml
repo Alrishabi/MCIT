@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.musab.mcit.Dialogs.Show_Dialog_Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:layout_gravity="top"
+            app:srcCompat="@drawable/splash_mcit2" />
+
+        <TextView
+            android:id="@+id/txtTitel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Title" />
+
+        <TextView
+            android:id="@+id/txtType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type" />
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dateColor"
+            android:text="Date" />
+
+        <TextView
+            android:id="@+id/txtCont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="content" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp"
+            android:gravity="left|bottom"
+            android:layout_marginTop="20dp"
+            android:text="@string/done_button" />
+    </LinearLayout>
+
+</LinearLayout>

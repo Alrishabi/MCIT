@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.musab.mcit.Activities.AdminTabeActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/ic_magnifier_tool"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom"
+        ></item>
+    <item
+        android:id="@+id/action_insert"
+        android:orderInCategory="100"
+        android:title="Insert"
+        android:icon="@drawable/ic_add_actionbar_icon"
+        app:showAsAction="always" />
+</menu>
